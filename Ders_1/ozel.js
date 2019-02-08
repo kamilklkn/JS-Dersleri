@@ -38,13 +38,36 @@ document.write("<br>-----<br>");
 */
 
 //------------------- DEĞİŞKENLER  -------------------//
+/*
+    Değişken Türleri
+    1. String
+    2. Number
+    3. Boolean
+    4. Null 
+    5. Undefined
+*/
 
-// Değişken türünü öğrenme
+// Değişken türünü öğrenme + String
     var name="Kamil Kalkan";
     console.log(name+" Bu bir "+ typeof name + " değişkendir.");
 
-//Var 
+// Number
     var number=12; //"" kullanmazsak number sayı olarak atama yapar.
-    console.log(number + " Bu bir " + typeof + " değişkendeğişkendir.");    
+    var number_decimal=12.01; 
+    console.log(number+" Bu bir "+typeof number +" değişkendeğişkendir.");    
+    console.log(number_decimal+" Bu bir "+typeof number_decimal+" sayıdır");
 
+    // document.write(number+" Bu bir "+typeof+" değişkendeğişkendir.");
+    // document.write(number_decimal+" Bu bir "+typeof+" sayıdır");
 
+// Boolean Değişken
+    var _boolean=true;
+    console.log(_boolean +" Bu bir "+typeof _boolean +" değişken.");
+
+// Null değişken
+    var _null=null;
+    console.log(_null+" Bu bir "+ typeof _null+" değişkendir.");
+
+//Undefined
+    var _undefined;
+    console.log(_undefined+" Bu bir "+typeof _undefined+" değişkendir.");
