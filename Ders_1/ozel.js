@@ -75,11 +75,19 @@ document.write("<br>-----<br>");
  //------------------- DEĞİŞKEN KAPSAMI  -------------------//   
 
 
-
-
  var _sayi_1=100; //Genel değişken
  function topla(){
      var _sayi_2=150; //Yerel değişken
      console.log(_sayi_1+_sayi_2);
  }
  topla();
+
+  //------------------- DEĞİŞKEN KAPSAMI  -------------------//   
+  /*
+        Operatör
+        1. String
+        2. Aritmetik
+        3. Atama
+        4. Mantıksal 
+        5. Karşılaştırma
+    */
