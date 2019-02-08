@@ -71,3 +71,15 @@ document.write("<br>-----<br>");
 //Undefined
     var _undefined;
     console.log(_undefined+" Bu bir "+typeof _undefined+" değişkendir.");
+
+ //------------------- DEĞİŞKEN KAPSAMI  -------------------//   
+
+
+
+
+ var _sayi_1=100; //Genel değişken
+ function topla(){
+     var _sayi_2=150; //Yerel değişken
+     console.log(_sayi_1+_sayi_2);
+ }
+ topla();
